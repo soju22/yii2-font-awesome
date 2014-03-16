@@ -5,6 +5,7 @@ use yii\helpers\Html;
 
 class FontAwesome
 {
+
     public static function icon($iconOptions)
     {
         if (is_string($iconOptions)) {
@@ -24,4 +25,5 @@ class FontAwesome
 
         return Html::tag('i', '', $options);
     }
+
 }
