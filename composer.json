@@ -1,0 +1,20 @@
+{
+	"name": "soju/yii2-font-awesome",
+	"description": "Yii2 Font Awesome Extension",
+	"keywords": ["yii2", "extension", "icon", "fontawesome"],
+	"homepage": "https://github.com/soju22/yii2-font-awesome",
+	"type": "yii2-extension",
+	"authors": [
+		{
+			"name": "soju",
+			"email": "soju22@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "dev-master",
+		"fortawesome/font-awesome": "v4.0.3"
+	},
+	"autoload": {
+		"psr-4": {"soju\\yii2fontawesome\\": ""}
+	}
+}
