@@ -9,7 +9,7 @@ class FontAwesome
     public static function icon($iconOptions)
     {
         if (is_string($iconOptions)) {
-			$iconClasses = preg_split('/\s+/', $iconOptions);
+            $iconClasses = preg_split('/\s+/', $iconOptions);
         } else {
             return;
         }
