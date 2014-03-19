@@ -9,18 +9,14 @@ class FontAwesome
     public static function icon($iconOptions)
     {
         if (is_string($iconOptions)) {
-            $icon = $iconOptions;
-            $iconOptions = [];
-        } else if (is_array($iconOptions) && isset($iconOptions[0])) {
-            $icon = $iconOptions[0];
-            unset($iconOptions[0]);
+			$iconClasses = preg_split('/\s+/', $iconOptions);
         } else {
             return;
         }
 
-        $options = ['class' => 'fa fa-' . $icon];
-        foreach ($iconOptions as $opt) {
-            Html::addCssClass($options, 'fa-' . $opt);
+        $options = ['class' => 'fa'];
+        foreach ($iconClasses as $class) {
+            Html::addCssClass($options, 'fa-' . $class);
         }
 
         return Html::tag('i', '', $options);
