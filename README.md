@@ -41,12 +41,11 @@ Usage
 -----
 
 ```php
-use soju\yii2fontawesome\FontAwesome;
+use soju\yii2fontawesome\FontAwesome as FA;
 
 // home icon : <i class="fa fa-home"></i>
-echo FontAwesome::icon('home');
+echo FA::icon('home');
 
 // 2x home icon : <i class="fa fa-home fa-2x"></i>
-echo FontAwesome::icon('home 2x');
-
+echo FA::icon('home 2x');
 ```
