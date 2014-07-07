@@ -6,7 +6,7 @@ class FontAwesomeAsset extends \yii\web\AssetBundle
 
     public $sourcePath = null;
     public $css = [
-        '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css',
+        '//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css',
     ];
 
 //    public $sourcePath = '@vendor/fortawesome/font-awesome';
