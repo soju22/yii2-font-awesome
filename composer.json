@@ -12,7 +12,7 @@
 	],
 	"require": {
 		"yiisoft/yii2": "*",
-		"fortawesome/font-awesome": "v4.0.3"
+		"fortawesome/font-awesome": "4.2.0"
 	},
 	"autoload": {
 		"psr-4": {"soju\\yii2fontawesome\\": ""}
